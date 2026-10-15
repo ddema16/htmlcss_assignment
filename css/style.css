@@ -1,17 +1,18 @@
-/* style.css for the Why We Love Vintage website */
+/* style.css - Why We Love Vintage? */
 
 body {
-  background-color: #efe8d8;
+  background-color: #eee7d6;
   background-image: url("../images/paper-bg.jpg");
-  color: #2b2b2b;
+  color: #333333;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.7;
   margin: 0;
 }
 
 #wrapper {
   background-color: #ffffff;
+  border: 1px solid #d8ccb0;
   margin: 30px auto;
   max-width: 1100px;
 }
@@ -21,27 +22,33 @@ a {
 }
 
 /* header */
-header {
-  border-bottom: 3px solid #a8442a;
-}
-
 header > img {
   display: block;
+  height: 220px;
+  object-fit: cover;
   width: 100%;
 }
 
 header h1 {
-  color: #8f3b1f;
+  align-items: center;
+  border-bottom: 4px solid #d9a441;
+  color: #3a312b;
+  display: flex;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 36px;
+  font-size: 32px;
   margin: 0;
-  padding: 20px 40px;
+  padding: 20px 48px;
+}
+
+.icon {
+  border-radius: 50%;
+  margin-right: 16px;
 }
 
 /* menu */
 nav {
-  background-color: #f4eee1;
-  padding: 20px 15px;
+  background-color: #f7f2e6;
+  padding: 24px 16px;
 }
 
 nav ul {
@@ -55,18 +62,21 @@ nav li {
 }
 
 nav ul ul {
-  border-left: 2px solid #d9cdb0;
-  margin-left: 12px;
-  padding-left: 8px;
+  border-left: 2px solid #ddd2b8;
+  margin-left: 14px;
+  padding-left: 6px;
 }
 
 nav a {
-  border-radius: 4px;
-  color: #2b2b2b;
+  border-radius: 6px;
+  color: #3a312b;
   display: block;
-  font-weight: bold;
-  padding: 6px 10px;
+  padding: 8px 12px;
   text-decoration: none;
+}
+
+nav > ul > li > a {
+  font-weight: bold;
 }
 
 nav a:hover {
@@ -74,52 +84,57 @@ nav a:hover {
   color: #ffffff;
 }
 
-/* main part */
+/* main content */
 main {
-  padding: 10px 40px 30px 40px;
+  padding: 24px 48px 40px 48px;
 }
 
 main h2 {
-  color: #8f3b1f;
+  color: #a8442a;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 26px;
-  margin: 35px 0 10px 0;
+  margin: 40px 0 12px 0;
+}
+
+main h2:first-child {
+  margin-top: 0;
 }
 
 main p {
-  max-width: 700px;
+  max-width: 680px;
 }
 
 li {
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 blockquote {
-  background-color: #faf6ec;
   border-left: 4px solid #d9a441;
   font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
   font-style: italic;
-  margin: 25px 0;
-  max-width: 660px;
-  padding: 10px 20px;
+  margin: 28px 0;
+  max-width: 640px;
+  padding: 4px 24px;
 }
 
 dt {
-  color: #8f3b1f;
+  color: #a8442a;
   font-weight: bold;
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 dd {
-  margin-left: 0;
+  margin: 0;
 }
 
 /* footer */
 footer {
-  background-color: #3a312b;
-  color: #f4eee1;
+  background-color: #f7f2e6;
+  border-top: 1px solid #d8ccb0;
+  color: #6b6258;
   font-size: 14px;
-  padding: 18px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -129,7 +144,8 @@ footer {
 }
 
 .layout-a nav {
-  width: 200px;
+  border-right: 1px solid #d8ccb0;
+  width: 220px;
 }
 
 .right-side {
@@ -141,7 +157,8 @@ footer {
 }
 
 .row nav {
-  width: 200px;
+  border-right: 1px solid #d8ccb0;
+  width: 220px;
 }
 
 .column {
@@ -150,11 +167,12 @@ footer {
 
 /* menu as one row inside the header (contact and references) */
 .top-menu {
-  padding: 10px 20px;
+  border-bottom: 1px solid #d8ccb0;
+  padding: 10px 48px;
 }
 
 .top-menu ul {
-  text-align: center;
+  text-align: left;
 }
 
 .top-menu li {
@@ -170,34 +188,32 @@ footer {
 
 .top-menu a {
   display: inline-block;
-  margin: 2px 4px;
+  margin: 2px 4px 2px 0;
+  padding: 6px 14px;
 }
 
 /* classes */
 .picture {
-  border: 3px solid #e6dcc3;
+  border: 1px solid #d8ccb0;
+  border-radius: 6px;
   max-width: 100%;
+  padding: 4px;
 }
 
 .float-left {
   float: left;
-  margin: 0 25px 15px 0;
+  margin: 0 28px 16px 0;
 }
 
 .float-right {
   float: right;
-  margin: 0 0 15px 25px;
+  margin: 0 0 16px 28px;
 }
 
 .caption {
-  color: #777777;
+  color: #6b6258;
   font-size: 14px;
   font-style: italic;
-}
-
-.icon {
-  margin-right: 8px;
-  vertical-align: middle;
 }
 
 .clear {
@@ -218,10 +234,10 @@ footer {
 }
 
 #contact-details {
-  background-color: #faf6ec;
-  border-left: 4px solid #a8442a;
-  max-width: 660px;
-  padding: 5px 20px;
+  background-color: #f7f2e6;
+  border-radius: 6px;
+  max-width: 640px;
+  padding: 8px 24px;
 }
 
 /* tables */
@@ -230,6 +246,7 @@ footer {
 }
 
 table {
+  border: 1px solid #d8ccb0;
   border-collapse: collapse;
   margin: 20px 0;
   width: 100%;
@@ -242,25 +259,32 @@ caption {
 }
 
 th {
-  background-color: #a8442a;
-  color: #ffffff;
+  background-color: #f1e9d6;
+  color: #3a312b;
 }
 
 th,
 td {
-  border: 1px solid #cdbf9f;
-  padding: 8px;
+  border: 1px solid #e6dcc5;
+  padding: 10px 14px;
 }
 
 /* contact form */
 form {
-  max-width: 700px;
+  max-width: 680px;
 }
 
 fieldset {
-  border: 1px solid #cdbf9f;
-  margin-bottom: 20px;
-  padding: 10px 20px 15px 20px;
+  border: 1px solid #d8ccb0;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  padding: 12px 24px 16px 24px;
+}
+
+legend {
+  color: #a8442a;
+  font-weight: bold;
+  padding: 0 8px;
 }
 
 label {
@@ -271,17 +295,20 @@ input[type="text"],
 input[type="email"],
 select,
 textarea {
-  border: 1px solid #aaaaaa;
-  margin: 5px 0 12px 0;
-  padding: 6px;
-  width: 95%;
+  border: 1px solid #cfc4a8;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 6px 0 14px 0;
+  padding: 8px;
+  width: 100%;
 }
 
 input[type="submit"],
 input[type="reset"] {
   background-color: #a8442a;
   border: none;
+  border-radius: 6px;
   color: #ffffff;
   margin-right: 8px;
-  padding: 8px 20px;
+  padding: 10px 24px;
 }
