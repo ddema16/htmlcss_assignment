@@ -39,7 +39,7 @@ header img {
 /* ---------- navigation ---------- */
 nav {
   background-color: #8b5a2b;
-  padding: 10px;
+  padding: 15px 10px;
 }
 
 nav ul {
@@ -49,25 +49,28 @@ nav ul {
 }
 
 nav li {
-  margin: 10px 0;
+  margin: 4px 0;
 }
 
+/* the lower levels of the menu are pushed in with a line on the left */
 nav ul ul {
-  padding-left: 16px;
-}
-
-nav ul ul li {
-  margin: 6px 0;
+  border-left: 2px solid #d9b98a;
+  margin-left: 14px;
+  padding-left: 6px;
 }
 
 nav a {
+  border-radius: 4px;
   color: #fffaf0;
+  display: block;
+  font-size: 16px;
   font-weight: bold;
+  padding: 6px 10px;
   text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #5c4033;
 }
 
 /* ---------- main part ---------- */
