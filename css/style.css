@@ -1,6 +1,6 @@
-/* style.css - external stylesheet for the "Why We Love Vintage?" website */
+/* style.css : external stylesheet for the "Why We Love Vintage?" website */
 
-/* ---------- whole page ---------- */
+/*  whole page */
 body {
   background-color: #e8dcc2;
   background-image: url("../images/paper-bg.jpg");
@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-/* the big box that holds everything (the div in the wireframes) */
+/* the big box that holds everything */
 #wrapper {
   background-color: #fffaf0;
   border: 3px solid #8b5a2b;
@@ -18,7 +18,7 @@ body {
   max-width: 1000px;
 }
 
-/* ---------- header ---------- */
+/*  header */
 header {
   background-color: #5c4033;
   color: #fffaf0;
@@ -36,7 +36,7 @@ header img {
   max-width: 100%;
 }
 
-/* ---------- navigation ---------- */
+/* navigation */
 nav {
   background-color: #8b5a2b;
   padding: 15px 10px;
@@ -73,7 +73,7 @@ nav a:hover {
   background-color: #5c4033;
 }
 
-/* ---------- main part ---------- */
+/* main part */
 main {
   padding: 15px 25px;
 }
@@ -117,7 +117,7 @@ a {
   color: #7a2e1d;
 }
 
-/* ---------- footer ---------- */
+/* footer */
 footer {
   background-color: #5c4033;
   color: #fffaf0;
@@ -130,7 +130,7 @@ footer a {
   color: #f3e6c8;
 }
 
-/* ---------- layout (a): nav on the left, used by Main.html ---------- */
+/* layout (a): nav on the left, used by Main.html  */
 .layout-a {
   display: flex;
 }
@@ -143,7 +143,7 @@ footer a {
   flex: 1;
 }
 
-/* ---------- layout (b): header on top, nav + main below ---------- */
+/*  layout (b): header on top, nav + main below  */
 .row {
   display: flex;
 }
@@ -156,7 +156,7 @@ footer a {
   flex: 1;
 }
 
-/* ---------- layout (c): the menu sits inside the header as one row ---------- */
+/* layout (c): the menu sits inside the header as one row  */
 .top-menu {
   border-radius: 4px;
   margin-top: 10px;
@@ -183,7 +183,7 @@ footer a {
   margin: 2px 4px;
 }
 
-/* ---------- classes ---------- */
+/* classes  */
 .picture {
   border: 4px solid #8b5a2b;
   max-width: 100%;
@@ -215,7 +215,7 @@ footer a {
   clear: both;
 }
 
-/* ---------- ids ---------- */
+/*  ids  */
 #intro {
   font-size: 19px;
 }
@@ -226,7 +226,7 @@ footer a {
   padding: 10px 20px;
 }
 
-/* ---------- tables ---------- */
+/* tables */
 .table-box {
   overflow-x: auto;
 }
@@ -265,7 +265,7 @@ caption {
   margin-bottom: 5px;
 }
 
-/* ---------- contact form ---------- */
+/*  contact form */
 form {
   background-color: #f3e6c8;
   border: 2px solid #8b5a2b;
