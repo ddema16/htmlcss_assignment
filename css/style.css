@@ -52,6 +52,14 @@ nav li {
   margin: 10px 0;
 }
 
+nav ul ul {
+  padding-left: 16px;
+}
+
+nav ul ul li {
+  margin: 6px 0;
+}
+
 nav a {
   color: #fffaf0;
   font-weight: bold;
@@ -146,13 +154,8 @@ footer a {
 }
 
 /* ---------- layout (c): nav is a bar under the header ---------- */
-.top-nav ul {
-  text-align: center;
-}
-
-.top-nav li {
-  display: inline-block;
-  margin: 5px 15px;
+.top-nav {
+  padding-left: 25px;
 }
 
 /* ---------- classes ---------- */
