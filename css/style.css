@@ -156,9 +156,17 @@ footer a {
   flex: 1;
 }
 
-/* ---------- layout (c): nav is a bar under the header ---------- */
-.top-nav {
-  padding-left: 25px;
+/* ---------- layout (c): header on top, main on the left, nav on the right ---------- */
+.layout-c {
+  display: flex;
+}
+
+.layout-c main {
+  flex: 1;
+}
+
+.layout-c nav {
+  width: 160px;
 }
 
 /* ---------- classes ---------- */
