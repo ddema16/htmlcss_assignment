@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Why We Love Vintage?</title>
+
+    <!-- external css file -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!-- div that holds the whole page (my own wireframe c) -->
+    <div id="wrapper">
+
+      <!-- top part of the page -->
+      <header>
+        <img src="images/banner.jpg" alt="A table with old vintage things on it" width="800" title="Vintage things">
+        <h1>Contact</h1>
+      </header>
+
+      <!-- menu under the header -->
+      <nav class="top-nav">
+        <ul>
+          <li><a href="Main.html">Main</a></li>
+          <li><a href="Vintage.html">Vintage</a></li>
+          <li><a href="Collecting.html">Collecting</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="MetaPage.html">MetaPage</a></li>
+          <li><a href="References.html">References</a></li>
+        </ul>
+      </nav>
+
+      <!-- main content -->
+      <main>
+        <h2>Get in touch</h2>
+        <p>Have a question about vintage things? Send me a message!</p>
+
+        <div id="contact-details">
+          <p style="text-indent: 0;">
+            &#9993; <strong>Student ID:</strong> u3344415<br>
+            &#9993; <strong>Email:</strong>
+            <a href="mailto:u3344415@example.com">u3344415@example.com</a>
+          </p>
+        </div>
+
+        <h2>Contact form</h2>
+        <!-- this form does not send anything, it is just for the design -->
+        <form action="#" method="post">
+          <fieldset>
+            <legend>About you</legend>
+
+            <label for="name">Your name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Type a nickname"><br>
+
+            <label for="email">Your email:</label><br>
+            <input type="email" id="email" name="email" placeholder="name@example.com"><br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Your message</legend>
+
+            <label for="topic">What is it about?</label><br>
+            <select id="topic" name="topic">
+              <option value="records">Records</option>
+              <option value="cameras">Cameras</option>
+              <option value="clothes">Clothes</option>
+              <option value="other">Something else</option>
+            </select><br>
+
+            <p style="text-indent: 0;">Do you own vintage things?</p>
+            <input type="radio" id="yes" name="own" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="own" value="no">
+            <label for="no">No</label>
+
+            <p style="text-indent: 0;">
+              <input type="checkbox" id="news" name="news" value="yes">
+              <label for="news">Send me vintage news</label>
+            </p>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40"></textarea>
+          </fieldset>
+
+          <input type="submit" value="Send">
+          <input type="reset" value="Clear">
+        </form>
+      </main>
+
+      <!-- bottom part of the page -->
+      <footer>
+        <img class="icon" src="images/icon.png" alt="Small vintage icon" width="24">
+        &copy; 2026 Why We Love Vintage? &#9829; Student ID: u3344415
+      </footer>
+
+    </div>
+  </body>
+</html>
